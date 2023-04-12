@@ -1,0 +1,371 @@
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+.container-fluid{
+    background-color: black;
+    width: 100%;
+    height: 84vh;
+    display: flex;
+}
+
+.container {
+    width: 60%;
+    display: flex;
+   
+    margin: 15px 15px;
+
+}
+
+.icon-wave {
+    position: absolute;
+    right: 10px;
+    top: 20px;
+
+    border-radius: 50%;
+}
+
+.icon-wave img {
+
+
+    border-radius: 50%;
+}
+
+h4 {
+    color: white;
+    padding: 0 15px ;
+}
+
+.main_umer {
+    height: 35vh;
+    width: 20vw;
+    background-color: rgb(48, 44, 44);
+
+    position: relative;
+    margin-left: 20px;
+    border-radius: 15px;
+    
+    
+}
+
+
+
+.umer {
+    height: 30vh;
+    width: 20vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.center-umer {
+
+    height: 21vh;
+    width: 10vw;
+    background-color: rgb(111, 106, 106);
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+ 
+
+.center-umer .img {
+    height: 100px;
+    width: 100px;
+
+    background-image: url("assests/ch_.jpg");
+    border-radius: 50%;
+    background-size: cover;
+
+
+}
+
+.main_card {
+    height: 35vh;
+    width: 20vw;
+    background-color: rgb(48, 44, 44);
+
+    position: relative;
+    margin-left: 20px;
+    border-radius: 15px;
+    
+  
+}
+
+
+
+
+.umer .img {
+    height: 100px;
+    width: 100px;
+
+    background-image: url("assests/umer.jpeg");
+    border-radius: 50%;
+    background-size: cover;
+
+
+}
+
+#subhan .img {
+    height: 100px;
+    width: 100px;
+
+    background-image: url("assests/subhan.jpeg");
+    border-radius: 50%;
+    background-size: cover;
+
+
+}
+#Ahmed-Owais .img {
+    height: 100px;
+    width: 100px;
+
+    background-image: url("assests/ahemd-owais.jpeg");
+    border-radius: 50%;
+    background-size: cover;
+
+
+}
+#Rao-Rabi .img {
+    height: 100px;
+    width: 100px;
+
+    background-image: url("assests/rabi.jpeg");
+    border-radius: 50%;
+    background-size: cover;
+
+
+}
+#Ch-Asad .img {
+    height: 100px;
+    width: 100px;
+
+    background-image: url("assests/ch_.jpg");
+    border-radius: 50%;
+    background-size: cover;
+
+
+}
+#ahmed-sarwar .img {
+    height: 100px;
+    width: 100px;
+
+    background-image: url("assests/ahmed-sarwar.jpeg");
+    border-radius: 50%;
+    background-size: cover;
+
+
+}
+
+.right-container{
+    height: 75vh;
+    width: 38%;
+    background-color: white;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.right-container .heading{
+    display: flex;
+    justify-content: space-between;
+}
+.input{
+     font-family: 'Font Awesome 5 Free';
+     font-weight: 700;
+     height: 7vh;
+     width: 100%;
+     margin-top: 20px;
+}
+.right-container p{
+    margin-top: 10px;
+    width: 60%;
+}
+.incall{
+margin: 10px 0;
+}
+.list-people .one{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    margin-top: 15px ;
+}
+.list-people .one .icon-o{
+width: 30px;
+border-radius: 50%;
+   
+}
+.list-people .one .profile{
+
+border-radius: 50%;
+   
+}
+footer{
+    background-color: black;
+}
+footer .first p{
+    color: rgb(250, 247, 247);
+}
+.all-icon{
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    color: white;
+    
+}
+footer{
+    padding: 25px;
+}
+footer .first {
+    display:flex ;
+   
+    align-items: first baseline;
+    justify-content: space-between;
+}
+footer .first .center {
+    display:flex ;
+}
+footer .first .end {
+    display:flex ;
+}
+footer .first .end .end-info {
+   margin-left: 15px;
+   color: #f0f2f4;
+   font-weight: 800;
+} 
+@media  screen and (max-width:756px) {
+    .container-fluid{
+        background-color: black;
+        width: 100%;
+        height: 165vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .container {
+        width: 90%;
+        display: flex;
+        
+        margin: 15px 15px;
+        
+    }
+    .left-container{
+        width: 100%;
+        
+    }
+    
+    .main_card {
+        height: 240px;
+        width: 180px;
+        background-color: rgb(48, 44, 44);
+    
+        position: relative;
+        margin-left: 20px;
+        border-radius: 15px;
+        
+      
+    }
+    .main_umer {
+        height: 240px;
+        width: 180px;
+        background-color: rgb(48, 44, 44);
+    
+        position: relative;
+        margin-left: 20px;
+        border-radius: 15px;
+        
+        
+    }
+    
+    
+    .center-umer {
+
+        height: 76px;
+        width: 100px;
+        background-color: rgb(111, 106, 106);
+        border-radius: 50%;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 5px;
+    
+    
+    }
+    .umer .img {
+        height: 10vh;
+        width: 17vw;
+    }
+    #subhan .img {
+        height: 10vh;
+        width: 17vw;
+    }
+    #Ahmed-Owais .img {
+        height: 10vh;
+        width: 17vw;
+    }
+    #Rao-Rabi .img {
+        height: 10vh;
+        width: 17vw;
+    }
+    #Ch-Asad .img {
+        height: 10vh;
+        width: 17vw;
+    }
+    #ahmed-sarwar .img {
+        height: 10vh;
+        width: 17vw;
+    }
+    .right-container{
+        height: 75vh;
+        width: 88%;
+        background-color: white;
+        padding: 15px;
+        margin: 15px;
+        border-radius: 15px;
+    }
+    .first{
+        display: flex;
+        flex-direction: column;
+    }
+    footer .first .center {
+        display:flex ;
+        width: 90%;
+        justify-content: center;
+    }
+    footer .first .end {
+        margin-top: 15px;
+        display:flex ;
+        justify-content:flex-end;
+        align-items: flex-end;
+    }
+    /* .all-icon{
+        width: 50px;
+        height: 50px;
+        background-color: gray;
+        border-radius: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+        color: white;
+        
+    } */
+
+
+}
